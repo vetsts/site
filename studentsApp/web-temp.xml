@@ -1,0 +1,119 @@
+<!DOCTYPE web-app PUBLIC '-//Sun Microsystems, Inc.//DTD
+  Web Application 2.3//EN' 'http://java.sun.com/dtd/web-app_2_3.dtd'>
+ 
+<web-app     xmlns="http://java.sun.com/xml/ns/javaee"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+    version="2.5">
+ 
+ <welcome-file-list>
+    
+    
+  </welcome-file-list>
+  
+ <servlet>
+    
+	<servlet-name>index</servlet-name>
+    <servlet-class>students.web.MainServlet</servlet-class>
+ </servlet>
+  
+ <servlet-mapping>
+    
+	<servlet-name>index</servlet-name>
+    <url-pattern>/index</url-pattern>
+	
+ </servlet-mapping>
+ 
+ <servlet>
+	<servlet-name>update</servlet-name>
+    <servlet-class>students.web.UpdateServlet</servlet-class>
+ </servlet>
+  
+ <servlet-mapping>
+	<servlet-name>update</servlet-name>
+    <url-pattern>/update</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+	<servlet-name>hello</servlet-name>
+    <servlet-class>students.web.HelloWorld.Servlet</servlet-class>
+ </servlet>
+  
+ <servlet-mapping>
+	<servlet-name>hello</servlet-name>
+    <url-pattern>/hello</url-pattern>
+ </servlet-mapping>
+ 
+<servlet>
+	<servlet-name>edit</servlet-name>
+    <servlet-class>students.web.EditServlet</servlet-class>
+ </servlet>
+  
+ <servlet-mapping>
+	<servlet-name>edit</servlet-name>
+    <url-pattern>/edit</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+	<servlet-name>delete</servlet-name>
+    <servlet-class>students.web.DeleteServlet</servlet-class>
+ </servlet>
+  
+ <servlet-mapping>
+	<servlet-name>delete</servlet-name>
+    <url-pattern>/delete</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+	<servlet-name>MarksServlet</servlet-name>
+    <servlet-class>students.web.MarksServlet</servlet-class>
+ </servlet>
+  
+ <servlet-mapping>
+	<servlet-name>MarksServlet</servlet-name>
+    <url-pattern>/marks</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet>
+	<servlet-name>MarkAddServlet</servlet-name>
+    <servlet-class>students.web.MarkAddServlet</servlet-class>
+ </servlet>
+  
+ <servlet-mapping>
+	<servlet-name>MarkAddServlet</servlet-name>
+    <url-pattern>/markadd</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+	<servlet-name>SubjectAddServlet</servlet-name>
+    <servlet-class>students.web.SubjectAddServlet</servlet-class>
+ </servlet>
+  
+ <servlet-mapping>
+	<servlet-name>SubjectAddServlet</servlet-name>
+    <url-pattern>/subjectadd</url-pattern>
+ </servlet-mapping>
+ 
+  <servlet>
+	<servlet-name>StudentAddServlet</servlet-name>
+    <servlet-class>students.web.StudentAddServlet</servlet-class>
+ </servlet>
+  
+ <servlet-mapping>
+	<servlet-name>StudentAddServlet</servlet-name>
+    <url-pattern>/studentadd</url-pattern>
+ </servlet-mapping>
+ 
+ <servlet>
+	<servlet-name>ExitServlet</servlet-name>
+    <servlet-class>students.web.ExitServlet</servlet-class>
+ </servlet>
+  
+ <servlet-mapping>
+	<servlet-name>ExitServlet</servlet-name>
+    <url-pattern>/exit</url-pattern>
+ </servlet-mapping>
+ 
+</web-app>
+
+xxx
